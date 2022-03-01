@@ -1,0 +1,9 @@
+.lunch-break {
+    width: 0.2rem !important;
+    padding: 0.5rem;
+}
+
+.time {
+    font-weight: 100;
+    margin: 1px;
+}

@@ -1,0 +1,16 @@
+.header-div {
+    text-align: center;
+    height: 3.5rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    color: white;
+    background: gray;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+.header-div-h1 {
+    font-size: 21px;
+    font-weight: 600;
+}
