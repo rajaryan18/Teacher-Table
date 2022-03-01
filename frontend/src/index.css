@@ -1,0 +1,74 @@
+body {
+  margin: 0px auto;
+  background: black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  margin: 3rem 15rem 2rem 15rem;
+  padding: 0px;
+  position: absolute;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding-left: 12px;
+  height: 2.5rem;
+  margin-bottom: 0.7rem;
+  width: 20rem;
+  border-radius: 17px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.app-header {
+  text-align: center;
+  margin: 5rem;
+}
+
+.app-h1 {
+  font-size: 3rem;
+  color: white;
+}
+
+select {
+  height: 2rem;
+}
+
+hr {
+  width: 90%;
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: -0.5rem;
+}
+
+.app-btn-div {
+  display: flex;
+  position: absolute;
+  margin-top: 1rem;
+  right: 1rem;
+}
+
+tr,
+td,
+th {
+  height: 3rem;
+  width: 9rem;
+  border: 1px solid gray;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    width: 20rem;
+  }
+}

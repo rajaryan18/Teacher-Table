@@ -1,0 +1,45 @@
+.adminhome-container {
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45rem;
+    padding: 2rem;
+    margin-top: 5rem;
+    margin-left: 8rem;
+}
+
+.adminhome-menu {
+    color: white;
+    font-size: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin: 0.5rem;
+    padding: 0.25rem;
+    border-radius: 7px;
+    height: 3rem;
+    position: relative;
+}
+
+.u:hover, .a:hover, .g:hover, .d:hover {
+    margin: auto;
+    cursor: pointer;
+    height: 4rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.adminhome-link {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .adminhome-container {
+        width: 30rem;
+        margin: auto;
+        margin-left: -1rem !important;
+        margin-top: 5rem !important;
+    }
+}

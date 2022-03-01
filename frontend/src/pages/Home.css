@@ -1,0 +1,68 @@
+.home-container {
+    margin-top: 10rem;
+}
+
+.home-box {
+    margin-top: -3px;
+    padding: 1rem;
+    display: flex;
+    width: 45rem;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid gray; 
+}
+
+.home-form-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-around;
+}
+
+.home-input-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-form-div select {
+    height: 3rem;
+}
+
+.home-button {
+    margin-top: 4.3rem;
+    height: 4rem;
+}
+
+.home-input {
+    width: 25rem !important;
+}
+
+.home-select {
+    width: 20rem;
+    color: white;
+    background-color: black;
+}
+
+.home-link {
+    font-size: 13px;
+    color: white;
+    margin-right: 0;
+    text-decoration: none;
+    border: 1px solid white;
+    max-width: fit-content;
+    padding: 0.5rem;
+    display: flex;
+    position: absolute;
+    right: 2rem;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .home-box {
+        width: 60rem;
+    }
+}

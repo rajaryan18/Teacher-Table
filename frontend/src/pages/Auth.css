@@ -1,0 +1,47 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-link {
+    color: white;
+}
+
+.auth-link:hover {
+    color: lightblue;
+    text-decoration: underline;  
+}
+
+.auth-button {
+    margin: 1rem;
+}
+
+.auth-box {
+    margin-top: -3px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.toLoginP {
+    font-size: 25px;
+    color: white
+}
+
+.auth-form-div {
+    margin: 5px;
+}
+
+@media (min-width: 768px) {
+    .auth-box {
+        width: 60rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-header {
+        width: max-content;
+    }
+}

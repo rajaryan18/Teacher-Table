@@ -1,0 +1,39 @@
+.adminsignup-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.adminsignup-box {
+    margin-top: -3px;
+    padding: 1.5rem;
+    display: flex;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.adminsignup-button {
+    width: fit-content;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    .adminsignup-box {
+        width: 80%;
+        margin: auto;
+        margin-top: -3px !important;
+        margin-left: 1px !important;
+    }
+
+    .adminsignup-container {
+        margin: auto;
+        margin-left: -1rem !important;
+    }
+}

@@ -1,0 +1,73 @@
+.studentdetails-conatiner {
+    margin: 12rem;
+    color: white;
+}
+
+.studentdetails-box {
+    margin-top: -3px;
+    padding: 2rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid gray;
+    width: 50rem;
+}
+
+.studentdetails-form-div {
+    padding-left: 5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 32rem;
+}
+
+.studentdetails-form-p {
+    width: 8rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+.studentdetails-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.studentdetails-detail-info {
+    min-width: 17rem;
+}
+
+.studentdetails-details-pic {
+    width: 15rem;
+}
+
+.studentdetails-details-info-sub {
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+.deleted-div {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.deleted-div-p {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .studentdetails-box {
+        width: 35rem;
+    }
+
+    .studentdetails-conatiner {
+        margin: 0rem;
+        margin-top: 9rem;
+    }
+
+    .studentdetails-form-div {
+        padding-left: 1rem;
+    }
+}
